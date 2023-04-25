@@ -24,14 +24,13 @@ html{
             align-items: center;
             justify-content: center;
             height: 100vh;
-            background-color: $lightGreen;
+            background-color: #171717;
 
             h1 {
                 font-size: 20px;
-                color: teal;
+                color: ghostwhite;
                 margin-bottom: 20px;
             }
-
             form {
                 display: flex;
                 flex-direction: column;
@@ -49,7 +48,7 @@ html{
                 button {
                     padding: 10px;
                     border: none;
-                    background-color: teal;
+                    background-color: #2B2B2B;
                     cursor: pointer;
                     color: white;
                 }
@@ -247,6 +246,7 @@ html{
 
                     span {
                         font-weight: bold;
+                        color: antiquewhite;
                     }
                 }
 
@@ -405,4 +405,7 @@ html{
             }
         }
     }
+}
+.ql-editor{
+    background-color: whitesmoke;
 }
